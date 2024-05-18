@@ -7,8 +7,28 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="pageContainer">    
+        <header class="headerContainer">
+            <h1 class="title">Roman Numeral Converter</h1>
+            <p class="appDescription">This app allows you to know in a few steps which symbols represents your arabic number.</p>
+        </header>
+        <main class="mainContainer">
+            <div class="appContainer">
+                <form action="" class="formContainer">
+                    <label for="number" id="form-label">Enter a number:</label>
+                    <input type="number" id="number" min="1">
+                    <button id="convert-btn">Convert</button>
+                </form>
+                <div id="output" class="output hidden"></div>
+            </div>
+        </main>
+    </div>
 
+    <footer class="footerContainer">
+        <img class="freecodecamp-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/FreeCodeCamp_logo.svg" alt="freeCodeCamp Logo">
+        <p class="developerSign">mdev - 2024</p>
+    </footer>
+    
     <script src="app.js"></script>
 </body>
 </html>
